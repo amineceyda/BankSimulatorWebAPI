@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace BankSimulatorAPI.DataAccess.Domain
+namespace BankSimulatorAPI.Data.Domain
 {
     [Table("Transaction", Schema = "dbo")]
-    public class Transaction : BaseModel
+    public class Transaction : IdBaseModel
     {
         public int AccountId { get; set; } //FK
         public virtual Account Account { get; set; } //To establish relationships between models

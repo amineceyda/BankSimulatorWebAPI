@@ -26,13 +26,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\BankSimulatorAPI.Base\BankSimulatorAPI.Base.csproj" />
     <ProjectReference Include="..\BankSimulatorAPI.Business\BankSimulatorAPI.Business.csproj" />
-    <ProjectReference Include="..\BankSimulatorAPI.DataAccess\BankSimulatorAPI.DataAccess.csproj" />
+    <ProjectReference Include="..\BankSimulatorAPI.DataAccess\BankSimulatorAPI.Data.csproj" />
+    <ProjectReference Include="..\BankSimulatorAPI.Data\BankSimulatorAPI.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>

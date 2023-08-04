@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 
-namespace BankSimulatorAPI.DataAccess.DBContext
+namespace BankSimulatorAPI.Data.DBContext
 {
     public class SimDbContextFactory : IDesignTimeDbContextFactory<SimDbContext>
     {

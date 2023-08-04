@@ -1,7 +1,7 @@
-﻿using BankSimulatorAPI.DataAccess.Domain;
+﻿using BankSimulatorAPI.Data.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace BankSimulatorAPI.DataAccess.DBContext
+namespace BankSimulatorAPI.Data.DBContext
 {
     public class SimDbContext : DbContext
     {

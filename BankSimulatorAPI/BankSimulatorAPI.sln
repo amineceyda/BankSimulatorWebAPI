@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankSimulatorAPI.Base", "Ba
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankSimulatorAPI.Business", "BankSimulatorAPI.Business\BankSimulatorAPI.Business.csproj", "{E5878C86-08E2-46C0-A3B5-C3203F4A1F8F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankSimulatorAPI.DataAccess", "BankSimulatorAPI.DataAccess\BankSimulatorAPI.DataAccess.csproj", "{EDD1A915-01D1-496B-9A63-6928C6848D80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankSimulatorAPI.Data", "BankSimulatorAPI.Data\BankSimulatorAPI.Data.csproj", "{EDD1A915-01D1-496B-9A63-6928C6848D80}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankSimulatorAPI.Service", "BankSimulatorAPI.Service\BankSimulatorAPI.Service.csproj", "{D18E3F03-52B4-4F5D-8F2B-4308DDDA4F79}"
 EndProject
